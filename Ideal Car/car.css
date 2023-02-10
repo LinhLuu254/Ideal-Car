@@ -1,0 +1,107 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #bbbdbe;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+header {
+    background-color: #3a3d3b;
+    color:white;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    width: 100px;
+    margin-right: 2rem;
+    border-radius: 50px;
+}
+
+
+main {
+    width: min(1200px, 100%);
+    padding: 20px;
+    margin: auto;
+}
+
+
+input,
+select,
+textarea,
+button {
+  font-family: inherit;
+  font-size: 100%;
+}
+
+input, select, textarea, button, label {
+    box-sizing: border-box;
+  }
+
+input[type="text"] {
+width: 12em;
+}
+
+.style {
+    font-weight: bold;
+    display: inline-block;
+    width: 10em;
+    background-color: #56abd3;
+    border-radius: 5px;
+    padding: 2px;
+  }
+
+input[type="text"] {
+border: 3px solid rgb(184, 194, 42);
+border-radius: 5px;
+}
+
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+  display: inline;
+}
+
+
+  h1 {
+    height: 80px;
+    margin: 5px;
+    padding: 5px;
+    font-size: xx-large;
+  }
+  h1 img {
+    width: 80px;
+    height: 80px;
+    vertical-align: middle;
+  }
+
+  fieldset {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 600px;
+    border-radius: 5px;
+  }
+
+  input[type="submit"] {
+    font-weight: bold;
+    padding:10px;
+    border-radius: 5px;
+    background-color: #d87320;
+  }
+
+  legend{
+    font-size: larger;
+    font-weight: bold;
+    color:#091768;
+    border: 3px solid rgb(67, 68, 51);
+    background-color: rgb(224, 207, 175);
+    padding: 2px;
+    border-radius: 3px;
+  }
